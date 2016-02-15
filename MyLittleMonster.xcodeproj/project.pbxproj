@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAFDB3411C722D4500992045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDB3401C722D4500992045 /* AppDelegate.swift */; };
+		DAFDB3431C722D4500992045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDB3421C722D4500992045 /* ViewController.swift */; };
+		DAFDB3461C722D4500992045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFDB3441C722D4500992045 /* Main.storyboard */; };
+		DAFDB3481C722D4500992045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFDB3471C722D4500992045 /* Assets.xcassets */; };
+		DAFDB34B1C722D4500992045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFDB3491C722D4500992045 /* LaunchScreen.storyboard */; };
+		DAFDB3561C722D4500992045 /* MyLittleMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDB3551C722D4500992045 /* MyLittleMonsterTests.swift */; };
+		DAFDB3611C722D4500992045 /* MyLittleMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDB3601C722D4500992045 /* MyLittleMonsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAFDB3521C722D4500992045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFDB3351C722D4500992045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFDB33C1C722D4500992045;
+			remoteInfo = MyLittleMonster;
+		};
+		DAFDB35D1C722D4500992045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFDB3351C722D4500992045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFDB33C1C722D4500992045;
+			remoteInfo = MyLittleMonster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAFDB33D1C722D4500992045 /* MyLittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittleMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFDB3401C722D4500992045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAFDB3421C722D4500992045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAFDB3451C722D4500992045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAFDB3471C722D4500992045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAFDB34A1C722D4500992045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAFDB34C1C722D4500992045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFDB3511C722D4500992045 /* MyLittleMonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittleMonsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFDB3551C722D4500992045 /* MyLittleMonsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleMonsterTests.swift; sourceTree = "<group>"; };
+		DAFDB3571C722D4500992045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAFDB35C1C722D4500992045 /* MyLittleMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittleMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFDB3601C722D4500992045 /* MyLittleMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittleMonsterUITests.swift; sourceTree = "<group>"; };
+		DAFDB3621C722D4500992045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAFDB33A1C722D4500992045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFDB34E1C722D4500992045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFDB3591C722D4500992045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAFDB3341C722D4500992045 = {
+			isa = PBXGroup;
+			children = (
+				DAFDB33F1C722D4500992045 /* MyLittleMonster */,
+				DAFDB3541C722D4500992045 /* MyLittleMonsterTests */,
+				DAFDB35F1C722D4500992045 /* MyLittleMonsterUITests */,
+				DAFDB33E1C722D4500992045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAFDB33E1C722D4500992045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDB33D1C722D4500992045 /* MyLittleMonster.app */,
+				DAFDB3511C722D4500992045 /* MyLittleMonsterTests.xctest */,
+				DAFDB35C1C722D4500992045 /* MyLittleMonsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAFDB33F1C722D4500992045 /* MyLittleMonster */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDB3401C722D4500992045 /* AppDelegate.swift */,
+				DAFDB3421C722D4500992045 /* ViewController.swift */,
+				DAFDB3441C722D4500992045 /* Main.storyboard */,
+				DAFDB3471C722D4500992045 /* Assets.xcassets */,
+				DAFDB3491C722D4500992045 /* LaunchScreen.storyboard */,
+				DAFDB34C1C722D4500992045 /* Info.plist */,
+			);
+			path = MyLittleMonster;
+			sourceTree = "<group>";
+		};
+		DAFDB3541C722D4500992045 /* MyLittleMonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDB3551C722D4500992045 /* MyLittleMonsterTests.swift */,
+				DAFDB3571C722D4500992045 /* Info.plist */,
+			);
+			path = MyLittleMonsterTests;
+			sourceTree = "<group>";
+		};
+		DAFDB35F1C722D4500992045 /* MyLittleMonsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAFDB3601C722D4500992045 /* MyLittleMonsterUITests.swift */,
+				DAFDB3621C722D4500992045 /* Info.plist */,
+			);
+			path = MyLittleMonsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAFDB33C1C722D4500992045 /* MyLittleMonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFDB3651C722D4500992045 /* Build configuration list for PBXNativeTarget "MyLittleMonster" */;
+			buildPhases = (
+				DAFDB3391C722D4500992045 /* Sources */,
+				DAFDB33A1C722D4500992045 /* Frameworks */,
+				DAFDB33B1C722D4500992045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLittleMonster;
+			productName = MyLittleMonster;
+			productReference = DAFDB33D1C722D4500992045 /* MyLittleMonster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAFDB3501C722D4500992045 /* MyLittleMonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFDB3681C722D4500992045 /* Build configuration list for PBXNativeTarget "MyLittleMonsterTests" */;
+			buildPhases = (
+				DAFDB34D1C722D4500992045 /* Sources */,
+				DAFDB34E1C722D4500992045 /* Frameworks */,
+				DAFDB34F1C722D4500992045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFDB3531C722D4500992045 /* PBXTargetDependency */,
+			);
+			name = MyLittleMonsterTests;
+			productName = MyLittleMonsterTests;
+			productReference = DAFDB3511C722D4500992045 /* MyLittleMonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAFDB35B1C722D4500992045 /* MyLittleMonsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFDB36B1C722D4500992045 /* Build configuration list for PBXNativeTarget "MyLittleMonsterUITests" */;
+			buildPhases = (
+				DAFDB3581C722D4500992045 /* Sources */,
+				DAFDB3591C722D4500992045 /* Frameworks */,
+				DAFDB35A1C722D4500992045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFDB35E1C722D4500992045 /* PBXTargetDependency */,
+			);
+			name = MyLittleMonsterUITests;
+			productName = MyLittleMonsterUITests;
+			productReference = DAFDB35C1C722D4500992045 /* MyLittleMonsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAFDB3351C722D4500992045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Holly Klose";
+				TargetAttributes = {
+					DAFDB33C1C722D4500992045 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7M3P7V275;
+					};
+					DAFDB3501C722D4500992045 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7M3P7V275;
+						TestTargetID = DAFDB33C1C722D4500992045;
+					};
+					DAFDB35B1C722D4500992045 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D7M3P7V275;
+						TestTargetID = DAFDB33C1C722D4500992045;
+					};
+				};
+			};
+			buildConfigurationList = DAFDB3381C722D4500992045 /* Build configuration list for PBXProject "MyLittleMonster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAFDB3341C722D4500992045;
+			productRefGroup = DAFDB33E1C722D4500992045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAFDB33C1C722D4500992045 /* MyLittleMonster */,
+				DAFDB3501C722D4500992045 /* MyLittleMonsterTests */,
+				DAFDB35B1C722D4500992045 /* MyLittleMonsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAFDB33B1C722D4500992045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFDB34B1C722D4500992045 /* LaunchScreen.storyboard in Resources */,
+				DAFDB3481C722D4500992045 /* Assets.xcassets in Resources */,
+				DAFDB3461C722D4500992045 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFDB34F1C722D4500992045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFDB35A1C722D4500992045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAFDB3391C722D4500992045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFDB3431C722D4500992045 /* ViewController.swift in Sources */,
+				DAFDB3411C722D4500992045 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFDB34D1C722D4500992045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFDB3561C722D4500992045 /* MyLittleMonsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFDB3581C722D4500992045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFDB3611C722D4500992045 /* MyLittleMonsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAFDB3531C722D4500992045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFDB33C1C722D4500992045 /* MyLittleMonster */;
+			targetProxy = DAFDB3521C722D4500992045 /* PBXContainerItemProxy */;
+		};
+		DAFDB35E1C722D4500992045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFDB33C1C722D4500992045 /* MyLittleMonster */;
+			targetProxy = DAFDB35D1C722D4500992045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAFDB3441C722D4500992045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAFDB3451C722D4500992045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAFDB3491C722D4500992045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAFDB34A1C722D4500992045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAFDB3631C722D4500992045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAFDB3641C722D4500992045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAFDB3661C722D4500992045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyLittleMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollyanderic.MyLittleMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAFDB3671C722D4500992045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyLittleMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollyanderic.MyLittleMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAFDB3691C722D4500992045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyLittleMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollyanderic.MyLittleMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLittleMonster.app/MyLittleMonster";
+			};
+			name = Debug;
+		};
+		DAFDB36A1C722D4500992045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyLittleMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollyanderic.MyLittleMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLittleMonster.app/MyLittleMonster";
+			};
+			name = Release;
+		};
+		DAFDB36C1C722D4500992045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyLittleMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollyanderic.MyLittleMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyLittleMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAFDB36D1C722D4500992045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyLittleMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollyanderic.MyLittleMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyLittleMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAFDB3381C722D4500992045 /* Build configuration list for PBXProject "MyLittleMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFDB3631C722D4500992045 /* Debug */,
+				DAFDB3641C722D4500992045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFDB3651C722D4500992045 /* Build configuration list for PBXNativeTarget "MyLittleMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFDB3661C722D4500992045 /* Debug */,
+				DAFDB3671C722D4500992045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAFDB3681C722D4500992045 /* Build configuration list for PBXNativeTarget "MyLittleMonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFDB3691C722D4500992045 /* Debug */,
+				DAFDB36A1C722D4500992045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAFDB36B1C722D4500992045 /* Build configuration list for PBXNativeTarget "MyLittleMonsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFDB36C1C722D4500992045 /* Debug */,
+				DAFDB36D1C722D4500992045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAFDB3351C722D4500992045 /* Project object */;
+}
